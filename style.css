@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background: linear-gradient(rgb(243, 227, 154) 0%, rgb(166, 255, 210) 100%)
+}
+.line{
+    height: 7px;
+    width: 70px;
+    background-color: black;
+    margin: 5px auto;
+    }
+img{
+    transition: transform 2s;
+}
+img:hover{
+    transform: scale(0.6);
+}
